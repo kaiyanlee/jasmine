@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="100" height="100" tilewidth="32" tileheight="32" infinite="0" nextlayerid="5" nextobjectid="42">
+ <editorsettings>
+  <export target="map.0.json" format="json"/>
+ </editorsettings>
+ <tileset firstgid="1" source="../sprites/sprites.tsx"/>
+ <layer id="1" name="bg_1" width="100" height="100">
+  <data encoding="base64" compression="zlib">
+   eJztwzEJAAAMA7DSb/4NF6YjgfSSqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqf52VrcA=
+  </data>
+ </layer>
+ <layer id="4" name="bg_2" width="100" height="100">
+  <data encoding="base64" compression="zlib">
+   eJztwTEBAAAAwqD1T+1lC6AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAbnEAAAQ==
+  </data>
+ </layer>
+ <layer id="2" name="fg" width="100" height="100">
+  <data encoding="base64" compression="zlib">
+   eJzt2MmK1GAYRuE0WC1Sd+IMtlfk0OK8b/f2XqTBeSnodSg47/VKnN9a/LiwmuSrSsWDnAdeKAz0Igd/klw+1nW7bq3tzbvuznz9v3MlO8i0nhdp8XK+/t85sMcoPqfFF3v8d+zBYg8We7DYg8UeLPZgsQeLPVjswWIPFnuw2IPFHiz2YLEHiz1Y7MFiDxZ7sNiDxR4s9mCxB4s9WOzBYg8We7DYg8UeLPZgsQeLPVjswWIPFnuw2IPFHiz2YLEHiz1Y7MFiDxZ7sNiDxR4s9mCxB4s9WOzBYg8We7DYg8UeLPZgsQeLPVjswWIPFnuw2IPFHiz2YLEHiz1Y7MFiDxZ7sNiDpfW4Ouu6a9n17EZ2M7uV3Z6tfk11rceD3L+H2aPscfYke5o9m61+TXWtx5vcv7fZu+x99iH7mH2arX5Nda3H19y/b9n37Ef2M/u1uKfbq19TXetxPPfvRHYyO5Wdzs5kZ7dXv6a61uNIdj+7N+Jv1bUe57Kd7PyIv1XXelzILmaXRvytumXn1cLzo3+m6Sw7r/TvLDuvxtbe4dXvsPNqTO0dXv2mOK/aO7z6TXFetXd49Zvie3t7h1e/w3rc3eq6/a2//736ju73+Jrq/4/qO7rf42uqParv6H6Pr6n2qJ5Xfo+v2fR55ff4mk2fV6rZ9Hm14DPWcJs+rxZ8xhpuivPKZ6zhpjivfMYaborzymes4Xy+Ylm0eJXtOsReZ78Bc06Y5A==
+  </data>
+ </layer>
+ <objectgroup id="3" name="objects">
+  <object id="32" name="Enemy" type="2" x="672" y="832" width="64" height="64">
+   <ellipse/>
+  </object>
+  <object id="33" name="Player" type="1" x="160" y="2976" width="64" height="64">
+   <ellipse/>
+  </object>
+  <object id="38" name="Enemy" type="2" x="928" y="1056" width="64" height="64">
+   <ellipse/>
+  </object>
+  <object id="39" name="Enemy" type="2" x="992" y="736" width="64" height="64">
+   <ellipse/>
+  </object>
+  <object id="40" name="Enemy" type="2" x="1344" y="1024" width="64" height="64">
+   <ellipse/>
+  </object>
+  <object id="41" name="Enemy" type="2" x="224" y="2688" width="64" height="64">
+   <ellipse/>
+  </object>
+ </objectgroup>
+</map>

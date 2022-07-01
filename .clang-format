@@ -1,0 +1,59 @@
+AccessModifierOffset: -4
+AlignAfterOpenBracket: true
+AlignConsecutiveAssignments: true
+AlignConsecutiveDeclarations: true
+AlignEscapedNewlines: Left
+AlignOperands: true
+AlignTrailingComments: true
+AllowAllArgumentsOnNextLine: true
+AllowAllParametersOfDeclarationOnNextLine: true
+AllowShortFunctionsOnASingleLine: false
+AllowShortLambdasOnASingleLine: false
+AlwaysBreakTemplateDeclarations: true
+BasedOnStyle: Microsoft
+BinPackArguments: true
+BinPackParameters: true
+BreakBeforeBinaryOperators: NonAssignment
+BreakBeforeBraces: Custom
+BreakConstructorInitializersBeforeComma: true
+IncludeBlocks: Regroup
+SortIncludes: true
+IncludeCategories:
+  - Regex: '^<ext/.*\.h>'
+    Priority: 2
+    SortPriority: 0
+  - Regex: '^<.*\.(h|hxx)>'
+    Priority: 1
+    SortPriority: 0
+  - Regex: "^<.*"
+    Priority: 2
+    SortPriority: 0
+  - Regex: ".*"
+    Priority: 3
+    SortPriority: 0
+BraceWrapping:
+  AfterClass: true
+  AfterControlStatement: false
+  AfterEnum: true
+  AfterFunction: true
+  AfterNamespace: false
+  AfterObjCDeclaration: false
+  AfterStruct: true
+  AfterUnion: false
+  BeforeCatch: false
+  BeforeElse: false
+  AfterExternBlock: true
+  IndentBraces: false
+ColumnLimit: 120
+CommentPragmas: "^!|^:"
+CompactNamespaces: false
+ConstructorInitializerAllOnOneLineOrOnePerLine: false
+ConstructorInitializerIndentWidth: 2
+ContinuationIndentWidth: 2
+Cpp11BracedListStyle: false
+FixNamespaceComments: true
+IndentWidth: 4
+NamespaceIndentation: None
+PointerBindsToType: true
+SpaceAfterTemplateKeyword: false
+Standard: Cpp11

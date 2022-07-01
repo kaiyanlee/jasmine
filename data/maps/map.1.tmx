@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="100" height="100" tilewidth="32" tileheight="32" infinite="0" nextlayerid="5" nextobjectid="29">
+ <editorsettings>
+  <export target="map.1.json" format="json"/>
+ </editorsettings>
+ <tileset firstgid="1" source="../sprites/sprites.tsx"/>
+ <layer id="1" name="bg_1" width="100" height="100">
+  <data encoding="base64" compression="zlib">
+   eJztwzEJAAAMA7BeM1D/XgvTkUB6SVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV1T+8wtC+
+  </data>
+ </layer>
+ <layer id="4" name="bg_2" width="100" height="100">
+  <data encoding="base64" compression="zlib">
+   eJztwTEBAAAAwqD1T+1lC6AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAbnEAAAQ==
+  </data>
+ </layer>
+ <layer id="2" name="fg" width="100" height="100">
+  <data encoding="base64" compression="zlib">
+   eJztwTEBAAAAwqD1T+1lC6AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAbnEAAAQ==
+  </data>
+ </layer>
+ <objectgroup id="3" name="objects">
+  <object id="28" name="Player" type="1" x="352" y="288" width="64" height="64">
+   <ellipse/>
+  </object>
+ </objectgroup>
+</map>

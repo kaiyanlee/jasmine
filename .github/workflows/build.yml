@@ -1,0 +1,26 @@
+name: Build
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  deploy:
+    runs-on: ${{ matrix.os }}
+
+    strategy:
+      matrix:
+        os: ubuntu-20.04
+
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Download Dependencies
+        run: sudo apt-get install -y sdl2 sdl2-gfx sdl2-image sdl2-mixer sdl2-ttf rapidjson zlib
+
+      - name: Configure CMake
+        run: cmake -B ${{github.workspace}}/build -DCMAKE_BUILD_TYPE=Release
+
+      - name: Build
+        run: cmake --build ${{github.workspace}}/build
